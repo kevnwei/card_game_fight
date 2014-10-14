@@ -621,7 +621,7 @@ class Hero {
             }
         }
         if (!$alive_enemies) {
-            return;
+            return array();
         }
 
         if ($tn > count($alive_enemies)) {
